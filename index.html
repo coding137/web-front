@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>
+      Introduction
+    </title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="#home"> <span>Home</span></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#about"> <span>About</span></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#portfolio"><span>Portfolio</span></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#contact"><span>Contact</span></a>
+        </li> 
+      </ul>
+    </nav>
+    <header id="home" class="top-header">
+      <div class="header__top">
+        <h1 class="header__title">Hello World...</h1>
+      </div>
+    </header>
+    <main class="container" id="about">
+      <div class="container__about" >
+        <div class="about-top">
+          <h1>About Me</h1>
+        </div>
+        <div  class="about-main">
+          <span>
+            Hi, My name is</span><b class="text-highlight"> MINKYU KIM</b></br><br/>
+           <span> I graduated HUFS University and My major is computer engineering<br />
+            I love to do programming and I want to be a computer engineer <br />
+            Thanks for reading my introduction</span>
+            <i class="fas fa-rocket"></i>
+          </span>
+        </div>
+        <div class="contact--icons">
+          <div class="icon">
+          <i style="color: orange;" class="fab fa-html5 fa-3x"></i>
+          </div>
+          <div class="icon">
+             <i style="color: rgb(37, 170, 190);" class="fab fa-css3 fa-3x"></i>
+            </div>
+         <div class="icon">
+          <i style="color: rgb(78,114,241);" class="fab fa-js fa-3x"></i></div>
+        
+          <div class="icon">
+          <i style="color: rgb(251, 126, 41);" class="fab fa-python fa-3x"></i>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="container__portfolio">
+        <div class="portfolio-top">
+        <h2 id="portfolio">My Portfolio(js Game)</h2>
+      </div>
+        <div class="portfolio-cardboards">
+          <div class="cardboard"><a href="game.html" onclick="window.open('game.html','newwindow','width=480,height=322'); return false;"><span class="text-2"> game 1..</span><span class="text-1">|</span></a> </div>
+          <div class="cardboard"><a href="game2.html" onclick="window.open('game2.html','newwindow','width=480,height=322'); return false;"><span class="text-2"> game 2..</span></a></div>
+        <!-- </div>
+             <a href="game.html" onclick="window.open('game.html','newwindow','width=480,height=322'); return false;"><span>Game</span></a>
+        <div class="portfolio-cardboards"> -->
+        
+          <div class="cardboard"><a onclick="window.open('fastrain/index.html','newwindow','width=825,height=620'); return false;"><span class="text-3"> game 3..</span></a></div>
+        </div>
+      </div>
+      <div class="container__contact portfolio-top">
+        <h2 class="contact--title" id="contact">Contact</h2>
+
+        <div class="contact--icons">
+          <div class="icon">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </div>
+          <div class="icon"> 
+          <i class="fab fa-instagram fa-2x"></i>
+        </div>
+        <div class="icon"> 
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </div> 
+        <div class="icon">
+            <i class="fas fa-envelope fa-2x"></i>
+        </div>
+        
+        </div>
+      </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+      <p class="footer-txt">@COPYRIGHT by Edgar K. 2019</p>
+    </footer>
+  </body>
+</html>

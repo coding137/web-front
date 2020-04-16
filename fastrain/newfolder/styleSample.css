@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+#bg {
+    width: 800px;
+    height: 600px;
+    background: url('images/bg.png');
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Hero */
+#hero {
+    height: 54px;
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.front-face {
+    background: url('images/hero.png');
+    background-position: 0px;
+}
+
+.left-face {
+    background: url('images/hero.png');
+    background-position: 70px;
+}
+
+.right-face {
+    background: url('images/hero.png');
+    background-position: 35px;
+}
+
+/* Enemy */
+
+.enemy {
+    width: 45px;
+    height: 54px;
+    position: absolute;
+}
+
+.enemy-live {
+    background: url('images/enemy.png');
+    background-position: 0px;
+}
+
+.enemy-die {
+    background: url('images/enemy.png');
+    background-position: 45px;
+}
+
+.enemy-clear {
+    
+}

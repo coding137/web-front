@@ -1,0 +1,81 @@
+#bg{
+    background-image: url(./images/bg.png);
+    width: 800px;
+    height: 600px;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    position: relative;
+}
+
+#ghost-alive{
+    position: absolute;
+    background: url("./images/enemy.png");
+    background-position: 0px;
+    width:45px;
+    height: 54px;  
+}
+#ghost-die{
+    position: absolute;
+    background: url("./images/enemy.png");
+    background-position: 45px;
+    width:45px;
+    height: 54px;  
+}
+#ghost-hidden{
+    display: hidden;
+}
+#ghost-start{
+    display: hidden;
+}
+.hero{
+    position: absolute;;
+    background: url("./images/hero.png");
+    width:35px;
+    height: 56px;  
+
+}
+
+.hero-die{
+    position: absolute;;
+    background: url("./images/herodie.png");
+    width:35px;
+    height: 56px;  
+
+}
+.hero-up{
+    position: absolute;
+    background: url("./images/hero.png");
+    background-position: 105px;
+    width:35px;
+    height: 56px;
+
+}
+.hero-left{
+    position: absolute;;
+    background: url("./images/hero.png");
+    background-position: 70px;
+    width:35px;
+    height: 56px;
+
+}
+.hero-right{
+    position: absolute;;
+    background: url("./images/hero.png");
+    width:35px;
+    height: 56px;
+    background-position: 35px;
+}
+.hero-front{
+    position: absolute;;
+    background: url("./images/hero.png");
+    width:35px;
+    height: 56px;
+
+}
+#ghost2{
+    position: absolute;
+}
+body{
+    width: 800px;
+    height: 600px;
+}

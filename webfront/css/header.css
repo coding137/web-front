@@ -1,0 +1,33 @@
+.top-header {
+  padding-top: 55px;
+  width: 100%;
+}
+.header__top {
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  display: flex;
+  /* padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px; */
+  border-bottom: 1px solid #777777;
+}
+
+.header__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  width: 100%;
+  color: #333333;
+  animation: mytext 5s infinite;
+}
+.text-highlight {
+  font-style: bold;
+  font-size: 30px;
+  font-family: Verdana;
+}
+@keyframes mytext {
+  50% {
+    color: aliceblue;
+  }
+}
